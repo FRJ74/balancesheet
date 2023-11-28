@@ -2,3 +2,22 @@
 html {
     box-sizing: border-box;
 }
+
+/* Main stylings*/
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+  }
+
+  /* Ensure elements are completely hidden visually.*/
+
+  span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
