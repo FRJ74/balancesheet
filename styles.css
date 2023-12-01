@@ -35,7 +35,7 @@ body {
     max-width: 40rem;
     margin: 0 auto;
     border: 2px solid gray;
-    background-color: lightgreen;
+    background-color: white;
   }
 
   #years {
@@ -113,6 +113,20 @@ body {
 
   tr.total:hover {
     background-color: #99c9ff;
+  }
+
+  td.current {
+    font-style: italic;
+  }
+
+  tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem)
+  }
+
+  tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
   }
 
   /* Ensure elements are completely hidden visually.*/
